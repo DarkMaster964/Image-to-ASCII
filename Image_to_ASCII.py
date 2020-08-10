@@ -67,7 +67,7 @@ def read_picture(address):
     return pixels
 
 def main(argv):
-    image_address = "C:\\Users\\Korisnik\\Desktop\\musk.jpg"
+    image_address = "C:\\Users\\Korisnik\\Desktop\\obama.jpg"
     txt_address = "C:\\Users\\Korisnik\\Desktop\\ASCII.txt"
 
     print("Reading pixels!")
@@ -83,9 +83,6 @@ def main(argv):
     write_txt (txt_address, ascii_image)
 
     print("Done!")
-
-    
-    
 
 if __name__ == "__main__":
     main(sys.argv[1:])
